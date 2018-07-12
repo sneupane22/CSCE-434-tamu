@@ -1,0 +1,9 @@
+void main()
+    {
+    if (4 > 3)
+        Print("Inside if 1" , "\n");
+    if (4 < 3)
+        Print("Inside if 2\n");
+    else
+        Print("Inside Else 2\n");
+    }

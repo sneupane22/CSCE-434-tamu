@@ -1,0 +1,31 @@
+int a;
+string[] b;
+
+int[] tester(int sz) {
+        int i;
+        int[] result;
+        Print("Value of sz is ");
+        Print(sz);
+        Print("\n");
+
+        b = NewArray(1, string);
+
+        Print("After b\n");
+        result = NewArray(sz, int);
+        Print("After Result\n");
+        for (i = 0; i < sz; i = i + 1) {
+                result[i] = i;
+                Print("Done with an incrument\n");
+        }
+        Print("Done with loop\n");
+        b[0] = "Done";
+        Print("Done with setting b\n");
+        return result;
+}
+
+void main() {
+        int[] d;
+        d = tester(8);
+        Print(d[d[1]], "\n", d.length(), "\n");
+        Print(b[0], "\n");
+}

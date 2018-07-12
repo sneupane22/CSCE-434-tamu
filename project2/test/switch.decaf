@@ -1,0 +1,8 @@
+int main(){
+    int n;
+    n = 1;
+    switch(n){
+      case 1: break;
+      default: break;
+    }
+}

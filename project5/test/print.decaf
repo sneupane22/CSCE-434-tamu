@@ -1,0 +1,11 @@
+void main() {
+    Print(5);
+    Print("\n");
+    Print(4 + 4);
+    Print("\n");
+    Print(5 - 3, "\n");
+    Print(5 >= 4, "\n");
+    Print(5 > 4, "\n");
+    Print(4 / 3, "\n");
+    Print(4 * 3, "\n");
+}

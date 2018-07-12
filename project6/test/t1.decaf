@@ -1,0 +1,12 @@
+
+
+void main() {
+  string c;
+  int d;
+  c = "This is C ";
+  d = 4 + 3;
+  Print(c);
+  Print("Hello ");
+  Print(d);
+  Print("\n");
+}

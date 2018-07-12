@@ -1,0 +1,22 @@
+class Cow {
+        int height;
+        int increase() {
+                return 1;
+        }
+        //  int weight;
+
+        //  void Init(int w, int h)
+        // {
+        //  weight = w;
+        // height = h;
+        // }
+
+        //void Moo() {
+        // Print ( this.height, " ", this.weight, "\n" );
+        // }
+}
+
+void main() {
+        Cow c;
+        Print(c.increase());
+}
